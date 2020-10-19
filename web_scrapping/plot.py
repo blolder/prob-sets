@@ -34,7 +34,7 @@ def factorial(n):
         return 1
     return n * factorial(n-1)
 
-#option: function as text
+#option: function as text, either this or setup_code = f"from __main__ import {algorithm}" below
 # setup_code = '''
 # def factorial(n):
 #     if n == 0:
